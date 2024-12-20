@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كنان المحاريق</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 20px auto;
+            text-align: right;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>كنان المحاريق</h1>
+        <p>مرحبًا بكم في موقع كنان المحاريق</p>
+    </header>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <main id="home">
+        <h2>مرحبًا بكم في موقعنا</h2>
+        <p>نحن هنا لنقدم لكم أفضل الخدمات والمعلومات.</p>
+    </main>
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>موقع كنان المحاريق يهدف إلى تقديم محتوى عالي الجودة ومميز في مختلف المجالات.</p>
+    </section>
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <form class="contact-form">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" rows="5" placeholder="أدخل رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 كنان المحاريق. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
